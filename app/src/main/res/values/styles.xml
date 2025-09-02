@@ -1,0 +1,48 @@
+<resources>
+    <style name="ProviderButtonBase" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#202124</item>
+        <item name="background">@drawable/bg_provider_outlined</item>
+        <item name="iconPadding">12dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">30dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- Existing -->
+    <style name="GoogleButton" parent="ProviderButtonBase">
+        <item name="iconTint">@null</item>  <!-- important -->
+        <item name="icon">@drawable/ic_google_24</item>
+
+    </style>
+    <style name="MicrosoftButton" parent="ProviderButtonBase">
+        <item name="icon">@drawable/ic_microsoft_24</item>
+        <item name="iconTint">@null</item>  <!-- important -->
+    </style>
+    <style name="AppleButton" parent="ProviderButtonBase">
+        <item name="icon">@drawable/ic_apple_24</item>
+        <item name="iconTint">@android:color/black</item>
+    </style>
+    <style name="PhoneButton" parent="ProviderButtonBase">
+        <item name="icon">@drawable/ic_phone_24</item>
+        <item name="iconTint">#202124</item>
+    </style>
+
+    <!-- NEW -->
+    <style name="FacebookButton" parent="ProviderButtonBase">
+        <item name="icon">@drawable/ic_facebook_24</item>
+        <item name="iconTint">#1877F2</item>
+    </style>
+    <style name="LinkedInButton" parent="ProviderButtonBase">
+        <item name="icon">@drawable/ic_linkedin_24</item>
+        <item name="iconTint">#0A66C2</item>
+    </style>
+    <style name="GitHubButton" parent="ProviderButtonBase">
+        <item name="icon">@drawable/ic_github_24</item>
+        <item name="iconTint">@android:color/black</item>
+    </style>
+</resources>
